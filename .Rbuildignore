@@ -1,3 +1,6 @@
 ^paquetepruebaclase\.Rproj$
 ^\.Rproj\.user$
 data_raw/
+^doc$
+^Meta$
+^README\.Rmd$
