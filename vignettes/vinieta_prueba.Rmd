@@ -1,0 +1,49 @@
+---
+title: "vinieta_prueba"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paquetepruebaclase)
+```
+
+Esto es una vinieta de prueba, podemos demostrar el uso de funciones.
+
+### Función suma()
+
+Suma dos números. Si no se especifican, usa los valores por defecto (1 y 4).
+
+```{r}
+suma(2,2)
+```
+
+### Función cm_a_pulgadas()
+
+Convierte una medida en centímetros a pulgadas.
+
+```{r}
+cm_a_pulgadas(10)
+
+cm_a_pulgadas(25.4)
+
+cm_a_pulgadas(c(5,10.5,15))
+```
+
+### Funcion Datos
+
+El paquete incluye un dataset de ejemplo llamado datos.
+
+```{r}
+data("datos")
+```
